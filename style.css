@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Noto Sans', sans-serif;
+  }
+
+  .container {
+      width: 1140px;
+      margin: 0px auto;
+
+
+  }
+
+  .nav-logo {
+      display: flex;
+      align-items: center;
+  }
+
+  .nav-options {
+      display: flex;
+      column-gap: 50px;
+      align-items: center;
+  }
+
+  .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .card-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-form{
+    display: flex;
+    justify-content: space-between;
+}
+  
+[mainFormEL]{
+    display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+textarea{
+    margin: 30px 0px 0px 0px;
+}
+[formaBTN]{
+    background-color: yellow ;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px ;
+}
